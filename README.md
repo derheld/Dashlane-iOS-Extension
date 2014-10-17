@@ -88,3 +88,7 @@ DASHLANE_EXTENSION_REQUEST_ADDRESS      : {DASHLANE_EXTENSION_REQUEST_REPLY_LOGI
 DASHLANE_EXTENSION_REQUEST_PHONE_NUMBER : {DASHLANE_EXTENSION_REQUEST_REPLY_PHONE_NUMBER_KEY: @“a phone number"}
 }
 ```
+
+Contact Us
+======================
+We hope you’ve found everything you need to get started. If you're interested or have any questions, please email us at ios8@dashlane.com.
