@@ -1,2 +1,2 @@
-Dashlane-iOS-Extension
+Dashlane iOS Extension
 ======================
