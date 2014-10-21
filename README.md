@@ -1,5 +1,8 @@
-Dashlane iOS Extension
+Dashlane App Extension for iOS 8
 ======================
+
+<a href="https://d38muu3h4xeqr1.cloudfront.net/Dashlane-iOS8.mp4" target="_blank"><img src="https://www.dashlane.com/images/ios8-partners.png" width="640" height="360"></a>
+
 iOS 8 has an incredible feature called [App Extensions](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/index.html). At Dashlane, we built a powerful and easy-to-implement App Extension for use in your apps. By using the Dashlane App Extension featured in the video above, you will enhance user experience and increase app engagement by eliminating manual data entry in three key areas:
 
 1. **Login** – How many times have you opened an app only to close it because you didn’t remember the password? Dashlane users manage over 50 million passwords, so you could reduce the number of lost interactions
