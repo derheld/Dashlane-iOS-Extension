@@ -23,7 +23,7 @@ Supporting the Dashlane Extension is similar to general iOS 8 Extension support.
 
 DashlaneExtensionRequestHelper is a utility class that can be used to quickly support the Dashlane Extension. It takes care of creating the proper data structure of the request and presenting a UIActivityViewController view on the root view controller of the application key window.
 
-Getting started with setup
+Detect the Dashlane app
 ======================
 You may want to detect if your app user has Dashlane installed on their iOS device. Using the following code you'll be able to check if an extension ready version of Dashlane is installed:
 
