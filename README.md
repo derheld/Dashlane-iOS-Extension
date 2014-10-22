@@ -92,6 +92,10 @@ DASHLANE_EXTENSION_REQUEST_PHONE_NUMBER : {DASHLANE_EXTENSION_REQUEST_REPLY_PHON
 }
 ```
 
+Dashlane-Extension CocoaPod
+======================
+If you use CocoaPods to manage your third party libraries. You can add " pod 'Dashlane-Extension' " to your Podfile, run pod install from your project directory and you're ready to go.
+
 Contact Us
 ======================
 We hope you’ve found everything you need to get started. If you're interested or have any questions, please email us at ios8@dashlane.com.
