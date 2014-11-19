@@ -91,6 +91,15 @@ DASHLANE_EXTENSION_REQUEST_PHONE_NUMBER : {DASHLANE_EXTENSION_REQUEST_REPLY_PHON
 }
 ```
 
+Webview forms
+======================
+Filling webview forms starts by requesting the data from Dashlane. Then by running a simple Javascript code, you can pass the requested information into to the webview:
+
+```objective-c
+NSString *javascript = [NSString stringWithFormat:@"!!function(e,t){var l=document.querySelectorAll('input[type=\"text\"],input[type=\"email\"]'),u=document.querySelectorAll('input[type=\"password\"]'),n=document.querySelectorAll('input[type=\"submit\"],button[type=\"submit\"]');return u&&u.length&&l&&l.length?(l[0].value=e,u[0].value=t,n.length&&n[0].click(),!0):!1}(\"%@\",\"%@\");", myLogin, myPassword];
+[webView stringByEvaluatingJavaScriptFromString:javascript];
+```
+
 Dashlane-Extension CocoaPod
 ======================
 If you use CocoaPods to manage your third party libraries. You can add " pod 'Dashlane-Extension' " to your Podfile, run pod install from your project directory and you're ready to go.
