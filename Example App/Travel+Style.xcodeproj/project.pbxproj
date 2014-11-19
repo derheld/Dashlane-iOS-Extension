@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376FF7E019FA5936006410AA /* DashlaneExtensionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FF7DD19FA5936006410AA /* DashlaneExtensionConstants.m */; };
+		376FF7E119FA5936006410AA /* DashlaneExtensionRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 376FF7DF19FA5936006410AA /* DashlaneExtensionRequestHelper.m */; };
 		37B00EB919B61EF100FD37EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EB819B61EF100FD37EA /* main.m */; };
 		37B00EBC19B61EF100FD37EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EBB19B61EF100FD37EA /* AppDelegate.m */; };
 		37B00EC219B61EF100FD37EA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EC119B61EF100FD37EA /* DetailViewController.m */; };
 		37B00EC519B61EF100FD37EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B00EC319B61EF100FD37EA /* Main.storyboard */; };
 		37B00EC719B61EF100FD37EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B00EC619B61EF100FD37EA /* Images.xcassets */; };
 		37B00ED319B61EF200FD37EA /* Travel_StyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00ED219B61EF200FD37EA /* Travel_StyleTests.m */; };
-		37B00EE819B61FFD00FD37EA /* DashlaneExtensionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EDD19B61FFD00FD37EA /* DashlaneExtensionConstants.m */; };
-		37B00EE919B61FFD00FD37EA /* DashlaneExtensionRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EDF19B61FFD00FD37EA /* DashlaneExtensionRequestHelper.m */; };
 		37B00EEB19B61FFD00FD37EA /* CheckoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EE319B61FFD00FD37EA /* CheckoutViewController.m */; };
 		37B00EEC19B61FFD00FD37EA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EE519B61FFD00FD37EA /* LoginViewController.m */; };
 		37B00EED19B61FFD00FD37EA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B00EE719B61FFD00FD37EA /* ProfileViewController.m */; };
@@ -31,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		376FF7DC19FA5936006410AA /* DashlaneExtensionConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashlaneExtensionConstants.h; path = ../../DashlaneExtensionConstants.h; sourceTree = "<group>"; };
+		376FF7DD19FA5936006410AA /* DashlaneExtensionConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashlaneExtensionConstants.m; path = ../../DashlaneExtensionConstants.m; sourceTree = "<group>"; };
+		376FF7DE19FA5936006410AA /* DashlaneExtensionRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashlaneExtensionRequestHelper.h; path = ../../DashlaneExtensionRequestHelper.h; sourceTree = "<group>"; };
+		376FF7DF19FA5936006410AA /* DashlaneExtensionRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashlaneExtensionRequestHelper.m; path = ../../DashlaneExtensionRequestHelper.m; sourceTree = "<group>"; };
 		37B00EB319B61EF100FD37EA /* Travel+Style.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel+Style.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B00EB719B61EF100FD37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B00EB819B61EF100FD37EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,10 +47,6 @@
 		37B00ECC19B61EF200FD37EA /* Travel+StyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travel+StyleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B00ED119B61EF200FD37EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37B00ED219B61EF200FD37EA /* Travel_StyleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Travel_StyleTests.m; sourceTree = "<group>"; };
-		37B00EDC19B61FFD00FD37EA /* DashlaneExtensionConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashlaneExtensionConstants.h; sourceTree = "<group>"; };
-		37B00EDD19B61FFD00FD37EA /* DashlaneExtensionConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashlaneExtensionConstants.m; sourceTree = "<group>"; };
-		37B00EDE19B61FFD00FD37EA /* DashlaneExtensionRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashlaneExtensionRequestHelper.h; sourceTree = "<group>"; };
-		37B00EDF19B61FFD00FD37EA /* DashlaneExtensionRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashlaneExtensionRequestHelper.m; sourceTree = "<group>"; };
 		37B00EE219B61FFD00FD37EA /* CheckoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutViewController.h; sourceTree = "<group>"; };
 		37B00EE319B61FFD00FD37EA /* CheckoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutViewController.m; sourceTree = "<group>"; };
 		37B00EE419B61FFD00FD37EA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -96,12 +96,12 @@
 			children = (
 				37B00EBA19B61EF100FD37EA /* AppDelegate.h */,
 				37B00EBB19B61EF100FD37EA /* AppDelegate.m */,
+				376FF7DC19FA5936006410AA /* DashlaneExtensionConstants.h */,
+				376FF7DD19FA5936006410AA /* DashlaneExtensionConstants.m */,
+				376FF7DE19FA5936006410AA /* DashlaneExtensionRequestHelper.h */,
+				376FF7DF19FA5936006410AA /* DashlaneExtensionRequestHelper.m */,
 				37B00EC019B61EF100FD37EA /* DetailViewController.h */,
 				37B00EC119B61EF100FD37EA /* DetailViewController.m */,
-				37B00EDC19B61FFD00FD37EA /* DashlaneExtensionConstants.h */,
-				37B00EDD19B61FFD00FD37EA /* DashlaneExtensionConstants.m */,
-				37B00EDE19B61FFD00FD37EA /* DashlaneExtensionRequestHelper.h */,
-				37B00EDF19B61FFD00FD37EA /* DashlaneExtensionRequestHelper.m */,
 				37B00EE219B61FFD00FD37EA /* CheckoutViewController.h */,
 				37B00EE319B61FFD00FD37EA /* CheckoutViewController.m */,
 				37B00EE419B61FFD00FD37EA /* LoginViewController.h */,
@@ -242,12 +242,12 @@
 			files = (
 				37B00EBC19B61EF100FD37EA /* AppDelegate.m in Sources */,
 				37B00EED19B61FFD00FD37EA /* ProfileViewController.m in Sources */,
+				376FF7E119FA5936006410AA /* DashlaneExtensionRequestHelper.m in Sources */,
 				37B00EEB19B61FFD00FD37EA /* CheckoutViewController.m in Sources */,
-				37B00EE919B61FFD00FD37EA /* DashlaneExtensionRequestHelper.m in Sources */,
-				37B00EE819B61FFD00FD37EA /* DashlaneExtensionConstants.m in Sources */,
 				37B00EB919B61EF100FD37EA /* main.m in Sources */,
 				37B00EEC19B61FFD00FD37EA /* LoginViewController.m in Sources */,
 				37B00EC219B61EF100FD37EA /* DetailViewController.m in Sources */,
+				376FF7E019FA5936006410AA /* DashlaneExtensionConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +438,7 @@
 				37B00ED819B61EF200FD37EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37B00ED919B61EF200FD37EA /* Build configuration list for PBXNativeTarget "Travel+StyleTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +447,7 @@
 				37B00EDB19B61EF200FD37EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
