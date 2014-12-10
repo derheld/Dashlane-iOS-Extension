@@ -67,7 +67,7 @@ Multiple data types can be requested using the same request by calling the top m
 3. Finally sending the request by calling
 
 ```objective-c
-- (void)requestLoginAndPasswordWithCompletionBlock:(RequestCompletionBlock)completionBlock
+- (void)sendRequestWithCompletionBlock:(RequestCompletionBlock)completionBlock
 ```
 
 The completion block is the callback that’s going to be called once the extension is dismissed.
