@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Dashlane-Extension"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "An iOS 8 action extension to provide user data on demande (e.g login to an app)"
 
   s.description  = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.1"
 
-  s.source       = { :git => "https://github.com/Dashlane/Dashlane-iOS-Extension.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/Dashlane/Dashlane-iOS-Extension.git", :tag => "1.0.2" }
 
   s.source_files  = "*.{h,m}"
 
