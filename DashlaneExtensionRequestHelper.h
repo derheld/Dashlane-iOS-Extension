@@ -19,9 +19,9 @@ typedef void (^RequestCompletionBlock)(NSDictionary *, NSError *);
  Creating an instance of a helper object that can be used to request data from Dashlane. Each request must include non empty
  app name in the request.
  
- @param The name of the app requesting data. This argument cannot be nil.
+ @param The ViewController the sheet will be presented from. This argument cannot be nil.
  */
-- (instancetype)initWithAppName:(NSString *)appName NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithAppName:(NSString *)appName presentFrom:(UIViewController *)vc NS_DESIGNATED_INITIALIZER;
 
 
 #pragma mark - Common requests
