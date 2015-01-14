@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.1"
 
-  s.source       = { :git => "https://github.com/Dashlane/Dashlane-iOS-Extension.git", :tag => "1.0.1 }
+  s.source       = { :git => "https://github.com/Dashlane/Dashlane-iOS-Extension.git", :tag => "1.0.1" }
 
   s.source_files  = "*.{h,m}"
 
