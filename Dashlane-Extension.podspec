@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author             = { "Dashlane" => "ios8@dashlane.com" }
   s.social_media_url   = "http://twitter.com/Dashlane"
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "7.1"
 
   s.source       = { :git => "https://github.com/Dashlane/Dashlane-iOS-Extension.git", :tag => "1.0.0" }
 
