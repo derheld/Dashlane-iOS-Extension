@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString       *appName;
 @property (nonatomic, strong) NSMutableArray *currentRequestItems;
+@property (nonatomic) UIViewController *presentFromViewController;
 
 - (UIActivityViewController *)_activityViewControllerWithExtensionItem:(NSExtensionItem *)extensionItem;
 - (NSExtensionItem *)_extensionItemForCurrentItemProviders;
@@ -23,12 +24,13 @@
 
 #pragma mark - Init
 
-- (instancetype)initWithAppName:(NSString *)appName
+- (instancetype)initWithAppName:(NSString *)appName presentFrom:(UIViewController *)vc
 {
     self = [super init];
     
     if (self){
         self.appName = appName;
+		self.presentFromViewController = vc;
     }
     
     return self;
@@ -76,7 +78,7 @@
             }
         }];
         
-        [[[[UIApplication sharedApplication] keyWindow] rootViewController] presentViewController:activityController animated:YES completion:nil];
+        [self.presentFromViewController presentViewController:activityController animated:YES completion:nil];
     }
 }
 
