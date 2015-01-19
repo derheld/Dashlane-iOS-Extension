@@ -21,7 +21,7 @@ typedef void (^RequestCompletionBlock)(NSDictionary *, NSError *);
  
  @param The ViewController the sheet will be presented from. This argument cannot be nil.
  */
-- (instancetype)initWithAppName:(NSString *)appName presentFrom:(UIViewController *)vc NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithAppName:(NSString *)appName presentFrom:(UIViewController *)vc sender:(id)sender NS_DESIGNATED_INITIALIZER;
 
 
 #pragma mark - Common requests
@@ -32,7 +32,7 @@ typedef void (^RequestCompletionBlock)(NSDictionary *, NSError *);
  The methods below prepares the data structure needed to build the request. It also presents a UIActivityViewController controller
  instance on the root view controller of the application key window.
  
- @param The completion block is the answer from Dashlane extension. Refer to sendRequestWithCompletionBlock: below for more info 
+ @param The completion block is the answer from Dashlane extension. Refer to sendRequestWithCompletionBlock: below for more info
  about the structure of the NSDictionary returned by the Dashlane extension via this completionBlock
  */
 - (void)requestLoginAndPasswordWithCompletionBlock:(RequestCompletionBlock)completionBlock;
@@ -66,7 +66,7 @@ typedef void (^RequestCompletionBlock)(NSDictionary *, NSError *);
 /**
  @brief Send the current batch of requests to Dashlane extension.
  
- The current batch of requests are embedded into an NSExtensionItem instance. It is passed to a UIActivityViewController controller instance 
+ The current batch of requests are embedded into an NSExtensionItem instance. It is passed to a UIActivityViewController controller instance
  that is presented on the root view controller of the application key window.
  When the extension is dismissed the block "completionBlock" is called. The NSDictionary argument of the completion block is a dictionary of
  dictionaries mapped to requested "request identifiers". The keys are the requested identifiers (via addRequest:matchingString:) and the values
